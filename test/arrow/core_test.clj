@@ -17,3 +17,6 @@
     (double-and-increment 4) => 9
     (double-and-increment -3) => -5))
 
+(facts "about `arbitrary-sum`"
+  (fact "calculates an arbitrary sum requested by the exercise"
+    (arbitrary-sum) => 13))

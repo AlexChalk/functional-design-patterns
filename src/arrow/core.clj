@@ -20,3 +20,9 @@
     (-> integer
         ((fn [n] (* 2 n)))
         inc))) 
+
+(def arbitrary-sum
+  (fn []
+   (-> (+ 1 2)
+       (* 3)
+       (+ 4))))
