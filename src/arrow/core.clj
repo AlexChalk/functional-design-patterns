@@ -15,3 +15,8 @@
         (* 3)
         list)))
         
+(def double-and-increment
+  (fn [integer]
+    (-> integer
+        ((fn [n] (* 2 n)))
+        inc))) 

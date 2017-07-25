@@ -11,3 +11,9 @@
   (fact "takes a single element vector, increments the element, multiplies it by 3, and returns it as a list"
     (increment-multiply-and-listify [1]) => '(6)
     (increment-multiply-and-listify [-1]) => '(0)))
+
+(facts "about `double-and-increment`"
+  (fact "doubles a number, then increments it"
+    (double-and-increment 4) => 9
+    (double-and-increment -3) => -5))
+
