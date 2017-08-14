@@ -1,4 +1,4 @@
-# Clojure-Embedded-OO
+# Functional Design Patterns
 
 Function design exercises in Clojure. 
 
